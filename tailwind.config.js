@@ -19,6 +19,9 @@ export default {
       fontFamily: {
         'big-shoulders-display': "'Big Shoulders Display', cursive",
       },
+      screens: {
+        tb: '992px',
+      },
       minHeight: {
         screen: '100vh',
       },

@@ -15,7 +15,7 @@ export function App() {
   return (
     <>
       <main className="my-10 z-10">
-        <section className="bg-white overflow-hidden rounded-lg">
+        <section className="bg-white grid grid-cols-1 overflow-hidden rounded-lg tb:grid-cols-3">
           <h1 className="sr-only">List of vehicles available</h1>
           <ArticleCard
             baseColor="#E28625"
