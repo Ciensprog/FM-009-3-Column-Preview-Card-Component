@@ -1,6 +1,8 @@
 import type { CSSProperties } from 'react'
 import type { ArticleCardProps } from '@/types/components'
 
+import { defaultOnClick } from '@/utilities/default-mouse-events'
+
 /*
 |-------------------------------------------------------------------------------
 | Component
@@ -29,9 +31,16 @@ export function ArticleCard({
         </h2>
       </header>
       <div className="">
-        <p className="leading-[1.5625rem] text-[0.9375rem] text-white/75">
+        <p className="leading-[1.5625rem] mb-[1.5625rem] text-[0.9375rem] text-white/75">
           {description}
         </p>
+        <a
+          href="/#"
+          className="bg-default border-2 border-transparent inline-block leading-[1.5625rem] outline-none px-8 py-2.5 ring-offset-2 ring-offset-[var(--card-base-color)] ring-white rounded-[1.5625rem] text-[0.9375rem] text-[var(--card-base-color)] transition-colors hover:bg-transparent hover:border-white hover:text-white focus:ring-2"
+          onClick={defaultOnClick}
+        >
+          Learn More<span className="sr-only">About {title}</span>
+        </a>
       </div>
     </article>
   )
