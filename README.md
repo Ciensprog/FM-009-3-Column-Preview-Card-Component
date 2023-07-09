@@ -22,7 +22,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/CHALLENGE_SOLUTION_URL_SLUG](https://www.frontendmentor.io/solutions/CHALLENGE_SOLUTION_URL_SLUG)
+- Solution URL: [https://www.frontendmentor.io/solutions/3column-preview-card-component-O-PDM9bFO6](https://www.frontendmentor.io/solutions/3column-preview-card-component-O-PDM9bFO6)
 - Live Site URL: [https://ciensprog.github.io/FM-009-3-Column-Preview-Card-Component/](https://ciensprog.github.io/FM-009-3-Column-Preview-Card-Component/)
 
 ### Built with
