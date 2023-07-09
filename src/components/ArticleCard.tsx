@@ -7,7 +7,7 @@ import type { ArticleCardProps } from '@/types/components'
 |-------------------------------------------------------------------------------
 */
 
-export function ArticleCard({ baseColor, title }: ArticleCardProps) {
+export function ArticleCard({ baseColor, icon, title }: ArticleCardProps) {
   return (
     <article
       className="bg-[var(--card-base-color)] px-12 py-12 w-[20.5rem]"
@@ -18,7 +18,8 @@ export function ArticleCard({ baseColor, title }: ArticleCardProps) {
       }
     >
       <header className="text-[#F2F2F2]">
-        <h2 className="font-big-shoulders-display font-bold text-[2.5rem] uppercase">
+        <span className="flex h-10 items-center w-16">{icon}</span>
+        <h2 className="font-big-shoulders-display font-bold mb-6 mt-9 text-[2.5rem] uppercase">
           {title}
         </h2>
       </header>
