@@ -19,12 +19,19 @@ export function App() {
           <h1 className="sr-only">List of vehicles available</h1>
           <ArticleCard
             baseColor="#E28625"
+            description="Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip."
             icon={<IconSedans />}
             title="Sedans"
           />
-          <ArticleCard baseColor="#006971" icon={<IconSuvs />} title="Suvs" />
+          <ArticleCard
+            baseColor="#006971"
+            description="Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures."
+            icon={<IconSuvs />}
+            title="Suvs"
+          />
           <ArticleCard
             baseColor="#004140"
+            description="Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style. "
             icon={<IconLuxury />}
             title="Luxury"
           />

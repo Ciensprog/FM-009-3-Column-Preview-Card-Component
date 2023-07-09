@@ -7,7 +7,12 @@ import type { ArticleCardProps } from '@/types/components'
 |-------------------------------------------------------------------------------
 */
 
-export function ArticleCard({ baseColor, icon, title }: ArticleCardProps) {
+export function ArticleCard({
+  baseColor,
+  description,
+  icon,
+  title,
+}: ArticleCardProps) {
   return (
     <article
       className="bg-[var(--card-base-color)] px-12 py-12 w-[20.5rem]"
@@ -23,6 +28,11 @@ export function ArticleCard({ baseColor, icon, title }: ArticleCardProps) {
           {title}
         </h2>
       </header>
+      <div className="">
+        <p className="leading-[1.5625rem] text-[0.9375rem] text-white/75">
+          {description}
+        </p>
+      </div>
     </article>
   )
 }
