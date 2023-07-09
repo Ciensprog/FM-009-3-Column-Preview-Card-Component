@@ -1,5 +1,5 @@
 const colors = {
-  //
+  default: '#F2F2F2',
 }
 
 /*
