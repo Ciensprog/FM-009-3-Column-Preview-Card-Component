@@ -16,6 +16,9 @@ export default {
       backgroundColor: colors,
       borderColor: colors,
       colors,
+      fontFamily: {
+        'big-shoulders-display': "'Big Shoulders Display', cursive",
+      },
       minHeight: {
         screen: '100vh',
       },
