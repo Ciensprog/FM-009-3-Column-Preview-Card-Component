@@ -3,3 +3,8 @@
 | Definitions
 |-------------------------------------------------------------------------------
 */
+
+export type ArticleCardProps = {
+  baseColor: `#${string}`
+  title: string
+}
