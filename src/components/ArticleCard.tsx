@@ -17,11 +17,11 @@ export function ArticleCard({ baseColor, title }: ArticleCardProps) {
         } as CSSProperties
       }
     >
-      <section className="text-[#F2F2F2]">
+      <header className="text-[#F2F2F2]">
         <h2 className="font-big-shoulders-display font-bold text-[2.5rem] uppercase">
           {title}
         </h2>
-      </section>
+      </header>
     </article>
   )
 }
